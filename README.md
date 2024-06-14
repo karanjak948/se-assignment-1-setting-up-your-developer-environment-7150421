@@ -12,29 +12,71 @@ This assignment aims to familiarize you with the tools and configurations necess
 
 1. Select Your Operating System (OS):
    Choose an operating system that best suits your preferences and project requirements. Download and Install Windows 11. https://www.microsoft.com/software-download/windows11
+   I have successfully installed Windows 11 smoothly. For the installation, I used the guide provided by Microsoft. You can download and install Windows 11 from the official Microsoft website: Download Windows 11.
 
 2. Install a Text Editor or Integrated Development Environment (IDE):
    Select and install a text editor or IDE suitable for your programming languages and workflow. Download and Install Visual Studio Code. https://code.visualstudio.com/Download
+   I successfully installed visual studio
+
 3. Set Up Version Control System:
    Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
+
+I succesfully installed Git 
 
 4. Install Necessary Programming Languages and Runtimes:
   Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
 
+I successfully installed python
+
 5. Install Package Managers:
    If applicable, install package managers like pip (Python).
+   I successefully installed
 
 6. Configure a Database (MySQL):
    Download and install MySQL database. https://dev.mysql.com/downloads/windows/installer/5.7.html
+I successefully installed MySQL
 
 7. Set Up Development Environments and Virtualization (Optional):
    Consider using virtualization tools like Docker or virtual machines to isolate project dependencies and ensure consistent environments across different machines.
+I already set up the Enviroments
 
 8. Explore Extensions and Plugins:
    Explore available extensions, plugins, and add-ons for your chosen text editor or IDE to enhance functionality, such as syntax highlighting, linting, code formatting, and version control integration.
+   I have suucessfully explored
 
 9. Document Your Setup:
     Create a comprehensive document outlining the steps you've taken to set up your developer environment. Include any configurations, customizations, or troubleshooting steps encountered during the process. 
+    ### Summary of Developer Environment Setup
+
+1. **Install Windows 11**:
+   - Download from [Microsoft's site](https://www.microsoft.com/software-download/windows11).
+   - Follow installation instructions.
+
+2. **Install Python and Django**:
+   - Download Python [here](https://www.python.org/downloads/).
+   - Run `pip install django`.
+
+3. **Project Configuration**:
+   - Create project: `django-admin startproject mayplpdjango`.
+   - Create app: `python manage.py startapp plp_ecommerce`.
+
+4. **Database Setup**:
+   - Run: `python manage.py makemigrations`.
+   - Run: `python manage.py migrate`.
+
+5. **Configure URLs and Views**:
+   - Update `urls.py` and `views.py`.
+   - Ensure templates are in the correct directory.
+
+6. **Run Server**:
+   - Start with: `python manage.py runserver 127.0.0.1:10000`.
+
+7. **Troubleshooting**:
+   - Activate virtual environment if Django isn't found.
+   - Check URL patterns for accuracy.
+This summary outlines the steps to set up a Django development environment on Windows 11.
+
+ 
 
 #Deliverables:
 - Document detailing the setup process with step-by-step instructions and screenshots where necessary.
